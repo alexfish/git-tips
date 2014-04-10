@@ -1,6 +1,4 @@
 git-tips
 ========
 
-Some quick git tips
-
-[Presentation](http://alexfish.github.io/git-tips)
+Some quick git tips: [Slides Here](http://alexfish.github.io/git-tips)
