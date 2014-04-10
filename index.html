@@ -34,7 +34,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git rebase —onto</textarea>
+        <h2>Branched from the wrong branch?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git rebase —onto foo bar</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -42,7 +44,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git commit —amend -c</textarea>
+        <h2>Forgot to add something to a commit?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git commit —amend -c foobar</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -50,6 +54,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want to switch back to the previous branch?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git checkout -</textarea>
     </p>
       </div>
@@ -58,6 +64,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want to stage some changes?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git add -p</textarea>
     </p>
       </div>
@@ -66,7 +74,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git push -u</textarea>
+        <h2>Want to set upstream?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git push -u origin foobar</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -74,7 +84,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git commit —allow-empty</textarea>
+        <h2>Want to push nothing?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git commit —allow-empty -m "foobar"</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -82,7 +94,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git branch --contains</textarea>
+        <h2>Want to find out which branch has a commit?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git branch --contains foobar</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -90,6 +104,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want to speed things up?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git gc</textarea>
     </p>
       </div>
@@ -98,6 +114,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want to undo bad things?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git reflog</textarea>
     </p>
       </div>
@@ -106,7 +124,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git gc</textarea>
+        <h2>Want to find out when things broke?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git bisect start foo bar</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
@@ -114,6 +134,18 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want to squash/delete commits?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git rebase -i foobar</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Want to always pull with rebase?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git config --global branch.autosetuprebase always</textarea>
     </p>
       </div>
@@ -122,6 +154,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Want git to be case sensative?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git config --global core.ignorecase false</textarea>
     </p>
       </div>
@@ -130,6 +164,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Love typos?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git config --global help.autocorrect 1</textarea>
     </p>
       </div>
@@ -138,6 +174,8 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h2>Like color?</h2>
+        
         <p><textarea class='code' display='none' mode=' '>git config —global color.ui 1</textarea>
     </p>
       </div>
@@ -146,7 +184,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <p><textarea class='code' display='none' mode=' '>git rebase -i</textarea>
+        <h2>Same conflicts?</h2>
+        
+        <p><textarea class='code' display='none' mode=' '>git config --global rerere.enabled true</textarea>
     </p>
       </div>
       <div class='spacer bottom'></div>
