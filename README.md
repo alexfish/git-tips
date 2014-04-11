@@ -98,15 +98,11 @@ git rebase -i foobar
 git config --global branch.autosetuprebase always
 ```
 
-!SLIDE
-
 ## Want git to be case sensative?
 
 ``` 
 git config --global core.ignorecase false 
 ```
-
-!SLIDE
 
 ## Love typos?
 
@@ -114,15 +110,11 @@ git config --global core.ignorecase false
 git config --global help.autocorrect 1
 ```
 
-!SLIDE
-
 ## Like color?
 
 ``` 
 git config —global color.ui 1
 ```
-
-!SLIDE
 
 ## Same conflicts?
 
