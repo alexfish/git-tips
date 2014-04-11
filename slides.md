@@ -2,6 +2,8 @@
 
 !SLIDE
 
+![logo](https://raw.githubusercontent.com/alexfish/git-tips/master/images/logo.png)
+
 # git tips
 
 !SLIDE
