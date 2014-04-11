@@ -12,6 +12,8 @@
 git rebase —onto foo bar 
 ```
 
+![onto](https://raw.githubusercontent.com/alexfish/git-tips/master/images/onto.gif)
+
 !SLIDE
 
 ## Forgot to add something to a commit?
@@ -19,6 +21,8 @@ git rebase —onto foo bar
 ``` 
 git commit —amend -c foobar
 ```
+
+![ammend](https://raw.githubusercontent.com/alexfish/git-tips/master/images/ammend.gif)
 
 !SLIDE
 
@@ -28,6 +32,8 @@ git commit —amend -c foobar
 git checkout -
 ```
 
+![checkout](https://raw.githubusercontent.com/alexfish/git-tips/master/images/checkout.gif)
+
 !SLIDE
 
 ## Want to stage some changes?
@@ -35,6 +41,8 @@ git checkout -
 ``` 
 git add -p
 ```
+
+![add](https://raw.githubusercontent.com/alexfish/git-tips/master/images/add.gif)
 
 !SLIDE
 
@@ -44,6 +52,8 @@ git add -p
 git push -u origin foobar
 ```
 
+![push](https://raw.githubusercontent.com/alexfish/git-tips/master/images/push.gif)
+
 !SLIDE
 
 ## Want to push nothing?
@@ -51,6 +61,8 @@ git push -u origin foobar
 ``` 
 git commit —allow-empty -m "foobar"
 ```
+
+![empty](https://raw.githubusercontent.com/alexfish/git-tips/master/images/empty.gif)
 
 !SLIDE
 
@@ -60,6 +72,8 @@ git commit —allow-empty -m "foobar"
 git branch --contains foobar
 ```
 
+![contains](https://raw.githubusercontent.com/alexfish/git-tips/master/images/contains.gif)
+
 !SLIDE
 
 ## Want to speed things up?
@@ -67,6 +81,8 @@ git branch --contains foobar
 ``` 
 git gc
 ```
+
+![gc](https://raw.githubusercontent.com/alexfish/git-tips/master/images/gc.gif)
 
 !SLIDE
 
@@ -76,6 +92,8 @@ git gc
 git reflog
 ```
 
+![reflog](https://raw.githubusercontent.com/alexfish/git-tips/master/images/reflog.gif)
+
 !SLIDE
 
 ## Want to find out when things broke?
@@ -84,6 +102,8 @@ git reflog
 git bisect start foo bar
 ```
 
+![bisect](https://raw.githubusercontent.com/alexfish/git-tips/master/images/bisect.gif)
+
 !SLIDE
 
 ## Want to squash/delete commits?
@@ -91,6 +111,8 @@ git bisect start foo bar
 ``` 
 git rebase -i foobar
 ```
+
+![rebase](https://raw.githubusercontent.com/alexfish/git-tips/master/images/rebase.gif)
 
 !SLIDE
 
