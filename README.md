@@ -1,7 +1,7 @@
-![logo](https://raw.githubusercontent.com/alexfish/git-tips/master/images/logo.png)
-
 git-tips
 ========
+
+![logo](https://raw.githubusercontent.com/alexfish/git-tips/master/images/logo.png)
 
 Some quick git tips: [Slides Here](http://alexfish.github.io/git-tips)
 
