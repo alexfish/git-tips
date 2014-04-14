@@ -100,7 +100,7 @@ git rebase -i foobar
 git config --global branch.autosetuprebase always
 ```
 
-## Want git to be case sensative?
+## Want git to be case sensitive?
 
 ``` 
 git config --global core.ignorecase false 
@@ -115,7 +115,7 @@ git config --global help.autocorrect 1
 ## Like color?
 
 ``` 
-git config —global color.ui 1
+git config —-global color.ui 1
 ```
 
 ## Same conflicts?
