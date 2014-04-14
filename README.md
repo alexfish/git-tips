@@ -115,7 +115,7 @@ git config --global help.autocorrect 1
 ## Like color?
 
 ``` 
-git config —-global color.ui 1
+git config --global color.ui 1
 ```
 
 ## Same conflicts?
